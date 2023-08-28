@@ -1,0 +1,17 @@
+<div>
+  <ion-label>{{ label }}</ion-label>
+  <ion-input
+    type="{{ type }}"
+    placeholder="{{ placeholder }}"
+    style="
+      padding-inline-start: 10px !important;
+      background: #fff;
+      border-radius: 25px;
+      border: 2px solid #73ad21;
+      color: #000;
+    "
+    text-right
+    id="input"
+    (input)="onChange($event)"
+  ></ion-input>
+</div>
